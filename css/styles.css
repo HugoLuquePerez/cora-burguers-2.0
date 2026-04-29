@@ -93,7 +93,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .logo {
-  height: 150px;
+  height: 250px;
 }
 
 .menu-toggle {
@@ -550,7 +550,7 @@ body::-webkit-scrollbar-thumb:hover {
   }
 
   .logo {
-    height: 60px;
+    height: 200px;
   }
 
   .hero h2 {
@@ -589,6 +589,8 @@ body::-webkit-scrollbar-thumb:hover {
 /* Las reglas de .menu para el overlay ya se definen arriba */
 
 .contact,
+.mayo,
+.extras,
 .about {
   padding: 80px 20px;
   text-align: center;
