@@ -1,10 +1,9 @@
 # CoraBurguers Málaga
 
-Sitio web de presentación para CoraBurguers, un restaurante especializado en pescado fresco, frituras y platos a la plancha en Málaga.
+Sitio web de presentación para CoraBurguers, un restaurante especializado en burguers y camperos en Málaga.
 
-- Sitio web en vivo: https://casa-tony.vercel.app/
-- Funcionalidad principal: carta interactiva con secciones de entrantes, tapas, pescados, mariscos, paellas, postres y bebidas.
-- Estilo: diseño moderno, oscuro y móvil-first, con botones de navegación rápidos dentro de la carta.
+- Sitio web en vivo: https://cora-burguers-2-0.vercel.app/
+- Funcionalidad principal: carta interactiva con secciones 
 
 ## Contenido del proyecto
 

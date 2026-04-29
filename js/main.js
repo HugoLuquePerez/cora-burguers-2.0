@@ -11,8 +11,8 @@ const nextButton = document.querySelector('.slider-control.next');
 const entrantes = document.querySelector('.entrantes');
 const camperos = document.querySelector('.camperos');
 const camperosP = document.querySelector('.camperosP');
-const burguers = document.querySelector('.burgers');
-const burguersP = document.querySelector('.burgersP');
+const burguers = document.querySelector('.burguers');
+const burguersP = document.querySelector('.burguersP');
 const baguettes = document.querySelector('.baguettes');
 const ensaladas = document.querySelector('.ensaladas');
 const perritos = document.querySelector('.perritos');
@@ -102,7 +102,6 @@ if (burguers) {
     targetSection.classList.toggle('none');
   });
 }
-
 if (burguersP) {
   burguersP.addEventListener('click', () => {
     const targetSection = document.getElementById('burguersP');
@@ -138,6 +137,7 @@ if (refrescos) {
     targetSection.classList.toggle('none');
   });
 }
+
 
 
 if (prevButton) {
