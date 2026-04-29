@@ -178,6 +178,7 @@ body::-webkit-scrollbar-thumb:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   padding: 0 20px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.65) 100%);
   z-index: 1;
@@ -186,17 +187,12 @@ body::-webkit-scrollbar-thumb:hover {
 .hero-content {
   display: flex;
   flex-direction: column;
-  gap: 22px;
+  gap: 40px;
   align-items: center;
   text-align: center;
   max-width: 720px;
 }
 
-.hero-logo {
-
-  max-width: 100%;
-  height: 250px;
-}
 
 .hero-welcome {
   margin: 0;
@@ -233,7 +229,7 @@ body::-webkit-scrollbar-thumb:hover {
 .hero-controls {
   display: flex;
   gap: 10px;
-  margin-top: 30px;
+  margin-top: 100px;
 }
 
 .slider-control {
@@ -416,7 +412,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .menu-item-row span:first-child {
-  color: white;
+  color: #FFD700;
   font-weight: 500;
 }
 
