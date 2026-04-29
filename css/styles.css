@@ -473,7 +473,7 @@ body::-webkit-scrollbar-thumb:hover {
     top: 100%;
     right: 0;
     left: 0;
-    background: var(--color-white);
+    background: #000;
     flex-direction: column;
     gap: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -493,7 +493,7 @@ body::-webkit-scrollbar-thumb:hover {
     display: block;
     padding: 15px 20px;
     width: 100%;
-    color: var(--color-black);
+    color: var(--color-white);
     text-align: center;
   }
 
