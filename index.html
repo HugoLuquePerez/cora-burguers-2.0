@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="CoraBurguer - Las hamburguesas más brutales de Málaga. Descubre nuestra carta y ven a visitarnos.">
+  <meta name="keywords"
+    content="CoraBurguer, Hamburguesas, Málaga, Comida Rápida, Carta, Entrantes, Camperos, Burgers, Baguettes, Ensaladas, Perritos">
+  <meta name="author" content="CoraBurguer">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" href="img/logo-burguer-cora.png" type="image/png">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>CoraBurguer - Hamburguesería</title>
+  <style>
+
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="header">
+    <nav class="nav">
+      <img src="img/logo-burguer-cora.png" alt="Logo" class="logo">
+
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#" class="js-open-menu" role="button" aria-expanded="false">Carta</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+
+      <div class="menu-toggle" id="menu-toggle">
+        ☰
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-slider">
+      <div class="hero-slide" style="background-image: url('img/slider2.jpg')"></div>
+      <div class="hero-slide" style="background-image: url('img/slider1.jpg')"></div>
+      <div class="hero-slide" style="background-image: url('img/slider3.jpg')"></div>
+    </div>
+
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <img src="img/logo-burguer-cora.png" alt="Logo CoraBurguers" class="hero-logo">
+        <h3 class="hero-welcome"><span class="hero-welcome-text">Bienvenidos</span></h3>
+        <button class="btn btn-view-menu js-open-menu">Ver Carta</button>
+      </div>
+
+      <div class="hero-controls">
+        <button class="slider-control prev" type="button" aria-label="Anterior">‹</button>
+        <button class="slider-control next" type="button" aria-label="Siguiente">›</button>
+      </div>
+    </div>
+  </section>
+
+  <hr class="section-divider">
+
+  <!-- CARTA -->
+  <section class="menu" id="menu-section">
+    <div class="menu-content">
+      <button class="menu-close" type="button" aria-label="Cerrar carta">×</button>
+
+      <div class="menu-header">
+        <div>
+          <p class="menu-label">🍔 CORA BURGUERS – CARTA</p>
+          <h2>Nuestra Carta</h2>
+          <p class="menu-description">Descubre nuestros entrantes, Burguers y Camperos, además de nuestras deliciosas
+            ensaladas. ¡Todo lo que necesitas para una comida perfecta! Comparte tu experiencia con nosotros
+            en redes sociales usando #CoraBurguer
+            para compartir.</p>
+        </div>
+
+        <div class="menu-nav" role="navigation" aria-label="Navegar por apartados de la carta">
+          <a href="#entrantes" class="entrantes">Entrantes</a>
+          <a href="#tapas" class="camperos">Camperos</a>
+          <a href="#plancha" class="camperosP">Camperos Premium</a>
+          <a href="#frito" class="burguers">Burguers</a>
+          <a href="#mariscos" class="burguersP">Burguers Premium</a>
+          <a href="#paella" class="baguettes">Baguettes</a>
+          <a href="#postres" class="ensaladas">Ensaladas</a>
+          <a href="#bebidas-calientes" class="perritos">Perritos</a>
+          <a href="#refrescos" class="refrescos">Refrescos</a>
+        </div>
+      </div>
+
+      <div class="menu-sections">
+        <div class="menu-section none" id="entrantes">
+          <h3>🥗 Entrantes</h3>
+          <div class="menu-items">
+            <div class="menu-item-row"><span>Patatas Clásicas</span>
+              <img style="height: 100px;" src="img/WhatsApp Image 2026-04-28 at 20.32.41.jpeg" alt="">
+              <span style="color: rgb(100, 100, 100);">Patatas Fritas con mayo Yeski</span>
+              <span>7,90€</span>
+            </div>
+            <div class="menu-item-row"><span>Pipirrana</span><span>6,90€</span></div>
+            <div class="menu-item-row"><span>Boquerones en Vinagre</span><span>9,90€</span></div>
+            <div class="menu-item-row"><span>Berenjenas con Miel</span><span>7,90€</span></div>
+            <div class="menu-item-row"><span>Ensalada Mixta</span><span>7,90€</span></div>
+            <div class="menu-item-row"><span>Cogollos con Anchoas</span><span>7,90€</span></div>
+            <div class="menu-item-row"><span>Tomate con Anchoas</span><span>7,90€</span></div>
+            <div class="menu-item-row"><span>Tomate con Ventresca</span><span>8,90€</span></div>
+            <div class="menu-item-row"><span>Tomate Aliñao</span><span>5,90€</span></div>
+            <div class="menu-item-row"><span>Tony’s Filetitos</span><span>7,90€</span></div>
+            <div class="menu-item-row"><span>Berenjenas</span><span>6,50€</span></div>
+            <div class="menu-item-row"><span>Pimientos del padrón</span><span>7,90€</span></div>
+            <div class="menu-item-row"><span>Tony’s Champiñones</span><span>7,90€</span></div>
+          </div>
+          <button class="menu-close-section" type="button" aria-label="Cerrar seccion">×</button>
+        </div>
+
+        <div class="menu-section none" id="camperos">
+          <h3>🍽️Camperos</h3>
+          <div class="menu-items">
+            <div class="menu-item-row"><span>Ensaladilla Rusa</span><span>2,50€ / 5,50€ / 8,50€</span></div>
+            <div class="menu-item-row"><span>Pipirrana</span><span>2,50€ / 5,50€ / 8,50€</span></div>
+            <div class="menu-item-row"><span>Boquerones en Vinagre</span><span>3,50€ / 6,50€ / 9,50€</span></div>
+            <div class="menu-item-row"><span>Salsa Rosa</span><span>2,50€ / 5,50€ / 8,50€</span></div>
+            <div class="menu-item-row"><span>Pinchitos de Anchoas</span><span>2,50€ / 5,50€ / 8,50€</span></div>
+            <div class="menu-item-row"><span>Tortitas de Camarones / Bacalao</span><span>3,50€ / 6,50€ / 9,50€</span>
+            </div>
+          </div>
+          <button class="menu-close-section" type="button" aria-label="Cerrar seccion">×</button>
+        </div>
+
+        <div class="menu-section none" id="camperosP">
+          <h3>🐟 PESCADO A LA PLANCHA</h3>
+          <div class="menu-items">
+            <div class="menu-item-row"><span>Gambas Plancha</span><span>11,90€</span></div>
+            <div class="menu-item-row"><span>Rosada a la plancha</span><span>9,50€</span></div>
+            <div class="menu-item-row"><span>Jibia</span><span>8,90€</span></div>
+            <div class="menu-item-row"><span>Vieiras al Pil Pil (Uds)</span><span>3,90€</span></div>
+            <div class="menu-item-row"><span>Pincho Langostino</span><span>3,50€</span></div>
+            <div class="menu-item-row"><span>Zamburiña al Pil Pil (Uds)</span><span>2,90€</span></div>
+            <div class="menu-item-row"><span>Conchas Finas (Uds)</span><span>3,90€</span></div>
+            <div class="menu-item-row"><span>Gambones (Uds)</span><span>2,90€</span></div>
+          </div>
+          <button class="menu-close-section" type="button" aria-label="Cerrar seccion">×</button>
+        </div>
+
+        <div class="menu-section none" id="burguers">
+          <h3>🍤 PESCADO FRITO</h3>
+          <div class="menu-items">
+            <div class="menu-item-row"><span>Boquerón Frito</span><span>6,90€</span></div>
+            <div class="menu-item-row"><span>Jurelitos</span><span>7,50€</span></div>
+            <div class="menu-item-row"><span>Adobo</span><span>7,90€</span></div>
+            <div class="menu-item-row"><span>Bacalailla</span><span>7,90€</span></div>
+            <div class="menu-item-row"><span>Jibia Frita</span><span>8,50€</span></div>
+            <div class="menu-item-row"><span>Colitas Langostino</span><span>8,50€</span></div>
+            <div class="menu-item-row"><span>Calamares</span><span>8,90€</span></div>
+            <div class="menu-item-row"><span>Boquerones al Limón</span><span>8,90€</span></div>
+            <div class="menu-item-row"><span>Rosada Frita</span><span>9,90€</span></div>
+            <div class="menu-item-row"><span>Pulpo Frito</span><span>12,50€</span></div>
+            <div class="menu-item-row menu-item-spaced"><span>Fritura Variada</span><span>1 persona – 9,50€<br>2
+                personas – 12,50€<br>3 personas – 18,00€<br>4 personas – 24,00€</span></div>
+          </div>
+          <button class="menu-close-section" type="button" aria-label="Cerrar seccion">×</button>
+        </div>
+
+        <div class="menu-section none" id="burguersP">
+          <h3>🍔 BURGUERS PREMIUM</h3>
+          <div class="menu-items">
+            <div class="menu-item-row"><span>Gambas Cocidas</span><span>8,90€ (Media: 6,50€)</span></div>
+            <div class="menu-item-row"><span>Langostino al Pil-Pil</span><span>8,90€</span></div>
+            <div class="menu-item-row"><span>Almejas</span><span>7,90€</span></div>
+            <div class="menu-item-row"><span>Navajas</span><span>6,90€</span></div>
+            <div class="menu-item-row"><span>Concha Fina (unidad)</span><span>2,80€</span></div>
+            <div class="menu-item-row"><span>Peregrinas (unidad)</span><span>4,50€</span></div>
+            <div class="menu-item-row"><span>Zamburiñas (unidad)</span><span>2,90€</span></div>
+            <div class="menu-item-row"><span>Mejillones al Vapor</span><span>7,90€</span></div>
+            <div class="menu-item-row"><span>Vieiras al Natural</span><span>3,90€</span></div>
+          </div>
+          <button class="menu-close-section" type="button" aria-label="Cerrar seccion">×</button>
+        </div>
+
+        <div class="menu-section none" id="baguettes">
+          <h3>🥖 BAGUETTES</h3>
+          <div class="menu-items">
+            <div class="menu-item-row"><span>Paella Marisco (2 personas)</span><span>19,90€</span></div>
+            <div class="menu-item-row"><span>Paella Pollo (2 personas)</span><span>18,90€</span></div>
+            <div class="menu-item-row"><span>Caldo Pintarroja</span><span>2,20€</span></div>
+          </div>
+          <button class="menu-close-section" type="button" aria-label="Cerrar seccion">×</button>
+        </div>
+
+        <div class="menu-section none" id="ensaladas">
+          <h3>🥗 ENSALADAS</h3>
+          <div class="menu-items">
+            <div class="menu-item-row"><span>Tarta de chocolate</span><span>5,00€</span></div>
+            <div class="menu-item-row"><span>Tarta de queso</span><span>5,00€</span></div>
+            <div class="menu-item-row"><span>Tarta de zanahoria</span><span>5,00€</span></div>
+            <div class="menu-item-row"><span>Tarta de tres leches</span><span>5,00€</span></div>
+          </div>
+          <button class="menu-close-section" type="button" aria-label="Cerrar seccion">×</button>
+        </div>
+
+        <div class="menu-section none" id="perritos">
+          <h3>🌭 PERRITOS</h3>
+          <div class="menu-items">
+            <div class="menu-item-row"><span>Café / Expreso</span><span>1,50€</span></div>
+            <div class="menu-item-row"><span>Café con leche</span><span>2,00€</span></div>
+            <div class="menu-item-row"><span>Capuccino</span><span>3,00€</span></div>
+            <div class="menu-item-row"><span>Bombón</span><span>3,00€</span></div>
+            <div class="menu-item-row"><span>Cola Cao</span><span>2,50€</span></div>
+            <div class="menu-item-row"><span>Café de leche</span><span>1,50€</span></div>
+            <div class="menu-item-row"><span>Té</span><span>2,00€</span></div>
+            <div class="menu-item-row"><span>Carajillo</span><span>3,50€</span></div>
+          </div>
+          <button class="menu-close-section" type="button" aria-label="Cerrar seccion">×</button>
+        </div>
+
+        <div class="menu-section none" id="refrescos">
+          <h3>🥤 REFRESCOS</h3>
+          <div class="menu-items">
+            <div class="menu-item-row"><span>Aquarius Naranja</span><span>2,50€</span></div>
+            <div class="menu-item-row"><span>Aquarius Limón</span><span>2,50€</span></div>
+            <div class="menu-item-row"><span>Nestea Limón</span><span>2,50€</span></div>
+            <div class="menu-item-row"><span>Nestea Maracuyá</span><span>2,50€</span></div>
+            <div class="menu-item-row"><span>Fanta Naranja</span><span>2,20€</span></div>
+            <div class="menu-item-row"><span>Fanta Limón</span><span>2,20€</span></div>
+            <div class="menu-item-row"><span>Coca-Cola</span><span>2,20€</span></div>
+            <div class="menu-item-row"><span>Coca-Cola Zero</span><span>2,20€</span></div>
+            <div class="menu-item-row"><span>Seven Up</span><span>2,00€</span></div>
+            <div class="menu-item-row"><span>Tónica</span><span>2,00€</span></div>
+            <div class="menu-item-row"><span>Zumo melocotón</span><span>2,00€</span></div>
+            <div class="menu-item-row"><span>Zumo piña</span><span>2,00€</span></div>
+            <div class="menu-item-row"><span>Agua con gas</span><span>2,00€</span></div>
+            <div class="menu-item-row"><span>Agua</span><span>1,75€</span></div>
+          </div>
+          <button class="menu-close-section" type="button" aria-label="Cerrar seccion">×</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- NOSOTROS -->
+  <section class="about" id="nosotros">
+    <div>
+      <h2 style="color: #FFD700;">Servicio a Domicilio</h2>
+      <p>¡Disfruta de nuestras hamburguesas en casa! Ofrecemos servicio a domicilio a través de las siguientes
+        plataformas:</p>
+      <ul style="list-style: none; padding: 0;">
+        <li>🍔 <a href="https://www.just-eat.es/restaurante/coraburguer-malaga" target="_blank"
+            style=" text-decoration:none;">Just Eat</a></li>
+        <li>🍔 <a href="https://www.glovoapp.com/es/malaga/cora-burguer-los-corazones" target="_blank"
+            style=" text-decoration:none;">Glovo</a></li>
+        <li>🍔 <a href="https://www.ubereats.com/es/malaga/food-delivery/coraburguer/QpG6mX1eQ9W9Jk3J4" target="_blank"
+            style=" text-decoration:none;">Uber Eats</a></li>
+      </ul>
+      <p>¡Haz tu pedido y disfruta de la mejor comida rápida en la comodidad de tu hogar!</p>
+
+      <h2>LLamanos a nosotros y te llevaremos la comida a casa por solo 2€ el envio.</h2>
+      <p>Teléfono: <a href="tel:+34952316321" style="text-decoration:none; color: #FFD700;">952 31 63 21</a> - Para
+        realizar pedidos</p>
+      <p>Por pedidos superirores a 50€ gratis 2 litros de refresco</p>
+      <p>Haz que tu bocadillo menú por 2,5 más.€</p>
+
+    </div>
+  </section>
+
+  <section class="mayo">
+    <div>
+      <p><span style="color: #FFD700;">- MAYO YESKI -</span> <br>
+        Nuestra mayo-yeski es una salsa totalmente casera con una base de leche y un secreto que tiene más de 20 años.
+      </p>
+    </div>
+  </section>
+
+  <section class="extras">
+    <div>
+      <h2 style="color: #FFD700;">Extras</h2>
+      <p>
+        - Todas nuestras salsas como: cheddar, emmy, bacon jam,mermeladada de pimiento,
+        bigcora, milislas y muchas mas, tienen un suplemento de +1€.
+        Consultanos por las nuevas salsas que vamos incluyendo.
+      </p>
+      <p>¿Lo quieres sin gluten?</p>
+      <p>
+        Todos nuestros camperos y burgers pueden ser sin gluten, por 1€ más.
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="contact" id="contacto">
+    <h2 style="color: #FFD700;">Encuentranos</h2>
+    <p>📍 Dirección: C. Río Guadiana, 17 (Los Corazones), Cruz de Humilladero, 29006 Málaga</p>
+    <p>📞 Teléfono: <a href="tel:+34952316321" style="color:#FFD700; text-decoration:none;">952 31 63 21</a></p>
+    <p>📷 Síguenos en Instagram: <a href="https://www.instagram.com/CoraBurguers" target="_blank"
+        style="color:#FFD700; text-decoration:none;">@CoraBurguerrs</a></p>
+
+    <div class="contact-map">
+      <div class="contact-map-overlay">
+        <a href="https://www.google.com/maps/place/Cora+burgers/@36.7131033,-4.4495732,17z/data=!4m6!3m5!1s0xd72f76e151d14a3:0x305135deb561670a!8m2!3d36.7139629!4d-4.4502421!16s%2Fg%2F11xs9z1j05?entry=ttu&g_ep=EgoyMDI2MDQyNi4wIKXMDSoASAFQAw%3D%3D"
+          target="_blank" rel="noopener" aria-label="Abrir ubicación en Google Maps">Abrir en Google Maps</a>
+      </div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.393766106934!2d-4.449573207624833!3d36.71310327005979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f76e151d14a3%3A0x305135deb561670a!2sCora%20burgers!5e0!3m2!1ses!2ses!4v1777416997961!5m2!1ses!2ses"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2025 CoraBurguer. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
