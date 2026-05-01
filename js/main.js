@@ -21,6 +21,8 @@ const buttonCloseSections = document.querySelectorAll('.menu-close-section');
 
 let currentSlide = 0;
 
+alert("Actualmente estamos trabajando en el desarrollo de la web, por lo que algunas secciones pueden no estar disponibles o mostrar información incompleta. Agradecemos tu comprensión y paciencia mientras seguimos mejorando la experiencia para ti. ¡Gracias por visitarnos!");
+
 function updateSlide() {
   if (!slider) return;
   slider.style.transform = `translateX(-${currentSlide * 100}%)`;
