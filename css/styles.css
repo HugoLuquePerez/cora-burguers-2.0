@@ -180,6 +180,7 @@ body::-webkit-scrollbar-thumb:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
   padding: 0 20px;
   z-index: 1;
 }
@@ -551,6 +552,14 @@ body::-webkit-scrollbar-thumb:hover {
 
   .hero h2 {
     font-size: 2rem;
+  }
+
+  .hero-slide {
+    background-size: contain;
+  }
+
+  .hero-welcome-text {
+    font-size: 1.3rem;
   }
 
   .hero p {
